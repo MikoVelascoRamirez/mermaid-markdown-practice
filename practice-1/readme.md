@@ -1,6 +1,6 @@
-# Mermain Practice File 1
+# Mermaid Practice File 1
 
-This is a little practice using Mermain/Markdown for first time.
+This is a little practice using Mermaid/Markdown for first time.
 
 ```mermaid
 graph TD
