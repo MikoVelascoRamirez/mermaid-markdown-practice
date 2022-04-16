@@ -12,4 +12,20 @@ classDiagram
     Animal <|-- Duck 
     Animal <|-- Fish
     Animal <|-- Zebra
+
+    class Duck{
+        +String beakColor
+        +swim()
+        +quack()
+    }
+
+    class Fish{
+        -int sizeInFeet()
+        -canEat()
+    }
+
+    class Zebra{
+        +bool is_wild
+        +run()
+    }
 ```
