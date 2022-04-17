@@ -4,20 +4,20 @@ In this file, I will create a Entity Relationship Diagram (E/R) of a customer
 
 ```mermaid
     erDiagram        
-        CUSTOMER{
-            string name
+        CUSTOMER {
+            string name 
             string custNumber
             string sector
         }
         CUSTOMER ||--o{ ORDER: places
 
-        ORDER{
+        ORDER {
             int orderNumber
             string deliveryAccess
         }
         ORDER ||--|{ LINE-ITEM: contains
 
-        LINE-ITEM{
+        LINE-ITEM {
             string productCode
             int quantity
             float pricePerUnit
