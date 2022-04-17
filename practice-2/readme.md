@@ -3,7 +3,8 @@
 Another practice using Mermaid/Markdown for first time.
 In this time, it will create a Entity class diagram
 
-```classDiagram
+```mermaid
+    classDiagram
         Animal <|-- Duck 
         Animal <|-- Fish
         Animal <|-- Zebra
