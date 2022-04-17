@@ -18,7 +18,7 @@ In this time, it will create a Entity class diagram
             +quack()
         }
         class Fish{
-            -int sizeInFeet()
+            -int sizeInFeet() : int
             -canEat()
         }
         class Zebra{
